@@ -69,4 +69,5 @@ echo "= compressing"
 upx --ultra-brute build/gawk-${gawk_version}/gawk
 echo "= extracting gawk binary"
 cp build/gawk-${gawk_version}/gawk releases
+cp build/gawk-${gawk_version}/gawk .
 echo "= done"
